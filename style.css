@@ -10,13 +10,16 @@ body {
 }
 
 .body-wrapper {
-  width: 800px;
+  width: 1200px;
   margin: 0px auto;
 }
 
 .header {
   background-color: #f7f7f7;
   padding: 20px 40px;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .title {
