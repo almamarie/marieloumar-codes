@@ -12,6 +12,7 @@ body {
 .body-wrapper {
   width: 1200px;
   margin: 0px auto;
+  position: relative;
 }
 
 .header {
@@ -43,11 +44,11 @@ body {
   margin-top: 50px;
   font-size: 40px;
   color: #1098ad;
+  position: relative;
 }
 
 .profile-picture {
   height: 50px;
-  margin-top: 40px;
 }
 
 .posted-by {
@@ -117,4 +118,42 @@ inline-block
 
 .related-posts-ul {
   list-style: none;
+}
+
+.image-name {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.like-button {
+  width: 150px;
+  height: 80px;
+  font-size: 26px;
+  position: absolute;
+
+  /* top 
+  left 
+  right 
+  bottom */
+  /* top: 2100px;
+  left: 1000px; */
+
+  bottom: 0px;
+  right: 0px;
+}
+
+.blog-title::after {
+  content: "TOP";
+  font-size: 16px;
+  background-color: yellow;
+  display: inline-block;
+  padding: 5px;
+  position: absolute;
+  top: -12px;
+}
+
+.main-article {
+  width: 800px;
 }
